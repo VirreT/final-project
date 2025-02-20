@@ -3,3 +3,28 @@ body{
     color: #d2a96d;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+#loginButton{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #d2a96d;
+    color: #062647;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #d2aa6d;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#loginButton:hover{
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #062647;
+    color: #d2a96d;
+    cursor: pointer;
+}
